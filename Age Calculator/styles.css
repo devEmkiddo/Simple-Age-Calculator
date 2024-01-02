@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+h1{
+    margin-bottom: .5em;
+}
+.ageInput, button{
+    margin-top: .5em;
+}
+
+button, .ageInput{
+    width: 170px;
+    height: 30px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+}
